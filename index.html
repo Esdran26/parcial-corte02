@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/de6467cf36.js"></script>
+    <title>LogIn</title>
+</head>
+<body>
+    <div class="form-card">
+        <div class="card-form">
+            <h2>Agencia de Viajes</h2><br/>
+            <form method="post">
+                <div class="input-user">
+                    <label for="nombre">Nombre de Usuario: </label><br/>
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="nombre" autocomplete="off" placeholder="Ej: vargasAndres26" required autofocus id="nombre"/>
+                </div>
+                <br>
+                <div class="input-password">
+                    <label for="direccion">Contraseña: </label><br/>
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="contrasena" autocomplete="off" placeholder="Contraseña"  required id="direccion"/>
+                </div>
+                <br>
+                <small>Por favor llenar todos los campos correctamente.</small>
+                <br>
+                <a href="page/chamilo.html"><input type="button" name="accion" value="Inicia Sesión"/></a>
+            </form>
+            <br/>
+            <div class="secondary-links">
+                <small>
+                    <a href="https://es.reactjs.org/">Olvidaste tu contraseña?</a>
+                </small> 
+                <br><br>
+
+                <small>
+                    <a href="https://es.reactjs.org/">No tienes una cuenta? Regístrate</a>
+                </small>
+            </div>
+        </div>
+        <div class="card-video">
+            <h2 class="more-info">Más Información</h2><br>
+            <iframe width="420" height="240" src="https://www.youtube.com/embed/hLUnx93QX0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
